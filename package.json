@@ -1,0 +1,25 @@
+{
+  "name": "rabbitmq-simple-wrapper",
+  "version": "1.0.0",
+  "description": "this is wrapper to use easily rabbitmq",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenon461/rabbitmq-wrapper.git"
+  },
+  "keywords": [
+    "rabbitmq"
+  ],
+  "author": "lenon461@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lenon461/rabbitmq-wrapper/issues"
+  },
+  "homepage": "https://github.com/lenon461/rabbitmq-wrapper#readme",
+  "dependencies": {
+    "amqplib": "^0.5.5"
+  }
+}
