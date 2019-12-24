@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/rabbitmq-simple-wrapper.svg)](https://badge.fury.io/js/rabbitmq-simple-wrapper)
+
 # rabbitmq-simple-wrapper
 
 This is a simple wrapper library to start rabbitmq quickly who use node.js.  
