@@ -1,16 +1,3 @@
-# rabbitmq-simple-wrapper
-
-This is a simple wrapper library to start rabbitmq quickly who use node.js.  
-It supports only a few commands of amqplib library and helps to start easily rabbitmq.  
-
-Install with: 
-```
-npm install rabbitmq-simple-wrapper
-```
-
-# Usage Example
-
-```
 const RabbitmqWrapper = require('../index');
 
 const url = 'amqp://user:bitnami@192.168.90.200:5672';
@@ -42,23 +29,3 @@ async function recv_a_message() {
     console.log(msg + ' is received')
 
 }
-```
-* Note that the URL should change to yours  
-
-
-  
-    
-      
-  
-# Test this example code
-
-```
-node example/
-```
-This will display:
-```
-$ node example/
-Hello World is sent
-"Hello World" is received
-```
-[how to use? (kr)](https://velog.io/@ljs/RabbitMQ-quickstart-in-Node.js-y3k4dpf59j)
