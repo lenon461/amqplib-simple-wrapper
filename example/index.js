@@ -1,6 +1,6 @@
 const RabbitmqWrapper = require('../index');
 
-const url = 'amqp://user:bitnami@192.168.90.200:5672';
+const url = 'amqp://user:bitnami@192.168.90.200:56721';
 const queueName = 'MQ_test';
 const rq = new RabbitmqWrapper(url, queueName);
 const message = "Hello World";
