@@ -21,7 +21,7 @@
   "homepage": "https://github.com/lenon461/amqplib-simple-wrapper#readme",
   "dependencies": {
     "@types/amqplib": "^0.5.13",
-    "amqplib": "^0.5.5",
+    "amqplib": "^0.10.3",
     "ts-node": "^8.5.4",
     "typescript": "^3.7.4"
   }
